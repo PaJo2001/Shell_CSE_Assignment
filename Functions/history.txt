@@ -1,0 +1,20 @@
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+for(i=0;i<8;i++)
+{
+printf("%s\t",token);
+token = strtok(NULL," ");
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 interrupt
+nightswatch -n 2 dirty
+nightswatch -n 2 dirty
+nightswatch -n 1 dirty
