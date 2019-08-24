@@ -1,0 +1,24 @@
+This Is A Self-Made Shell Code maade using system calls.
+
+This Folder contains -----------------
+
+1) shell.c -> the main program that on compilation compiles all other files. It contains the infinite loop and also deals with getting the command line argument, parsing them and detecting which function is to be executed.
+2) Functions -> This is a directory containing all functions/subroutines required in this program.
+	a)pwd.c -> pwd command
+	b)ls.c -> ls command and its variations ( ls { , -a,-l,-la})
+	c)echo.c -> echo command
+	d)cd .c -> contains cd command
+	e)pinfo.c -> pinfo command = prints pid, status, virtual memory, executable file path
+	f)allcom.c -> uses exec command to run remaining functions and also deals with background and foreground process
+	g)history.c -> recreation of history command saves upto 20 previous commands uin history.txt
+	h)history.txt -> conatins saved commands for history command
+	i)nightswatch.c -> display dirty memory and keyboard interrupts on cpu and exits on pressing q.
+3) README -> Explanation of code
+4) MakeFile -> Compiles All Files
+
+How to compile and run ------------
+1) run command -- make      (compilation takes place)
+2) file named "shell" made
+3) next command -- ./shell
+4) program starts to run
+5) use command "exit" to get out of program
